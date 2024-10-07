@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>🍦 Cold</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
@@ -17,8 +17,6 @@
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
-
-		to your new<br />SvelteKit app
 	</h1>
 
 	<h2>
