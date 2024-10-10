@@ -1,59 +1,36 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import shofarloud from '$lib/images/shofarLoud.mp4'
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
+
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<aside class="pad-72">
+		<h1>THEE <span class="highlight"> LIGHT </span> <span class="font-hel">OF</span> ZION</h1>
+		<h2 class="header font-edit">Waking up the <span class="font-edit-italic">Lost Sheep</span></h2>
+	</aside>
+	<!-- svelte-ignore a11y-media-has-caption -->
+	<video controls src={shofarloud}>
+		<source src={shofarloud} type="video/mp4">
+	</video>
 </section>
 
 <style>
+	aside {
+		text-align: center;
+	}
+
 	section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0.6;
 	}
 
 	h1 {
 		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+		font-family: 'Helvetica Bold';
+		margin-bottom: 0px;
+		
 	}
 </style>
