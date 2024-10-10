@@ -2,8 +2,6 @@
 	import shofarloud from '$lib/images/shofarLoud.mp4'
 </script>
 
-
-
 <section>
 	<aside class="pad-72">
 		<h1>THEE <span class="highlight"> LIGHT </span> <span class="font-hel">OF</span> ZION</h1>
