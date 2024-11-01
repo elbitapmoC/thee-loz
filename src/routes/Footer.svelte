@@ -6,96 +6,104 @@
 	let loz = 'Thee Light Of Zion';
 </script>
 
-<footer class="bg-gray-900 text-white py-16 px-6">
-	<!-- Logo Section -->
-	<div class="flex justify-center mb-8">
-		<img src={logo} alt="Thee Light of Zion Logo" class="w-8 h-8" />
-	</div>
-
-	<!-- Title -->
-	<div class="text-center text-2xl font-semibold tracking-wide mb-10">{loz}</div>
-
-	<!-- Newsletter Signup -->
-	<div class="text-center mb-10">
-		<p class="text-lg font-medium mb-4 tracking-wide uppercase">Stay Up to Date with Passion</p>
-		<form class="flex justify-center items-center max-w-md mx-auto">
-			<input
-				type="email"
-				placeholder="Enter Your Email"
-				class="p-3 w-2/3 border border-gray-700 bg-gray-800 text-gray-200 rounded-l-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white focus:border-white"
-				required
-			/>
-			<button
-				type="submit"
-				class="p-3 bg-white text-gray-900 font-bold rounded-r-lg hover:bg-gray-300 transition-all"
+<footer class="bg-black text-white py-16 px-6">
+	<nav
+		aria-labelledby="footer-links-heading"
+		class="border-t border-gray-700 pt-12 flex justify-between mt-24 mb-12"
+	>
+		<section aria-labelledby="newsletter-heading" class="text-center mb-12">
+			<h2 id="newsletter-heading" class="text-lg font-medium mb-4 tracking-widest uppercase">
+				Stay Up to Date with LOZ
+			</h2>
+			<form
+				aria-label="Newsletter Sign-Up"
+				class="flex justify-center items-center max-w-md mx-auto"
 			>
-				Submit
-			</button>
-		</form>
-	</div>
-
-	<!-- Navigation Links -->
-	<div class="grid grid-cols-1 sm:grid-cols-3 gap-12 text-center mb-12">
-		<div>
-			<h4 class="text-base font-semibold text-gray-400 mb-4 uppercase">{loz}</h4>
+				<label for="newsletter-email" class="sr-only">Enter Your Email</label>
+				<input
+					id="newsletter-email"
+					type="email"
+					placeholder="Enter Your Email"
+					class="p-3 w-2/3 border-b border-gray-600 bg-black text-gray-400 placeholder-gray-500 focus:outline-none"
+					required
+				/>
+				<button
+					type="submit"
+					class="p-3 bg-black text-white font-semibold uppercase transition-all"
+				>
+					Submit
+				</button>
+			</form>
+		</section>
+		<section>
+			<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">{loz}</h3>
 			<ul class="space-y-2">
+				<li>
+					<a href="#" class="text-gray-300 hover:text-white transition-colors">Our Elders</a>
+				</li>
 				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
 				<li>
-					<a href="#" class="text-gray-300 hover:text-white transition-colors">Become a Soldier</a>
+					<a href="#" class="text-gray-300 hover:text-white transition-colors">Join In</a>
 				</li>
-				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Our Elders</a></li>
-				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Give Alms</a></li>
+				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Give</a></li>
 			</ul>
-		</div>
-		<div>
-			<h4 class="text-base font-semibold text-gray-400 mb-4 uppercase">Locations</h4>
+		</section>
+
+		<section>
+			<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">Locations</h3>
 			<ul class="space-y-2">
+				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Haiti</a></li>
 				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">GA</a></li>
 				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">FL</a></li>
-				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Haiti</a></li>
 			</ul>
-		</div>
-		<div>
-			<h4 class="text-base font-semibold text-gray-400 mb-4 uppercase">The Movement</h4>
+		</section>
+
+		<section>
+			<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">The Movement</h3>
 			<ul class="space-y-2">
 				<li>
-					<a href="#" class="text-gray-300 hover:text-white transition-colors"
-						>Shofar Loud Music Group</a
-					>
+					<a href="#" class="text-gray-300 hover:text-white transition-colors">Resources</a>
 				</li>
 				<li>
-					<a href="#" class="text-gray-300 hover:text-white transition-colors">LOZ High Holy Days</a
-					>
+					<a href="#" class="text-gray-300 hover:text-white transition-colors">Calender</a>
 				</li>
 				<li>
-					<a href="#" class="text-gray-300 hover:text-white transition-colors">LOZ Resources</a>
+					<a href="#" class="text-gray-300 hover:text-white transition-colors">Events</a>
+				</li>
+				<li>
+					<a href="#" class="text-gray-300 hover:text-white transition-colors">News</a>
 				</li>
 			</ul>
-		</div>
-	</div>
+		</section>
+	</nav>
 
-	<!-- Footer Bottom -->
-	<article class="flex justify-between border-t border-gray-700 pt-6 text-center text-gray-400">
-		<p class="text-sm mb-6">© 2024 Thee Light of Zion</p>
-		<aside>
-			<a href="https://www.youtube.com/@TheeLightofZion" aria-label="YouTube">
-				<img src={yt} alt="YouTube" class="icon-size" />
+	<!-- Social Media Icons -->
+	<section
+		class="flex flex-col sm:flex-row justify-between border-t border-gray-700 pt-6 text-right text-gray-400"
+	>
+		<p class="text-sm mb-4 sm:mb-0">© 2024 Thee Light of Zion</p>
+		<aside class="flex space-x-6">
+			<a
+				href="https://www.youtube.com/@TheeLightofZion"
+				aria-label="YouTube"
+				class="hover:text-red-600 transition-colors"
+			>
+				<img src={yt} alt="YouTube" class="w-6 h-6" />
 			</a>
-			<a href="https://www.instagram.com/theelightofzion/" aria-label="Instagram">
-				<img src={ig} alt="Instagram" class="icon-size" />
+			<a
+				href="https://www.instagram.com/theelightofzion/"
+				aria-label="Instagram"
+				class="hover:text-pink-500 transition-colors"
+			>
+				<img src={ig} alt="Instagram" class="w-6 h-6" />
 			</a>
-			<a href="https://www.facebook.com/TheeL.O.Z.Network/" aria-label="Facebook">
-				<img src={fb} alt="Facebook" class="icon-size" />
+			<a
+				href="https://www.facebook.com/TheeL.O.Z.Network/"
+				aria-label="Facebook"
+				class="hover:text-blue-600 transition-colors"
+			>
+				<img src={fb} alt="Facebook" class="text-white w-6 h-6" />
 			</a>
 		</aside>
-	</article>
+	</section>
 </footer>
-
-<style>
-	.icon-size {
-		max-width: 1.5rem;
-		max-height: 1.5rem;
-		width: 100%;
-		height: 100%;
-	}
-</style>
