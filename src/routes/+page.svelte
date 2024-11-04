@@ -1,5 +1,5 @@
 <script>
-	import shofarloud from '$lib/images/shofarLoud.mp4'
+	import shofarloud from '$lib/images/shofarLoud.mp4';
 </script>
 
 <section>
@@ -9,7 +9,7 @@
 	</aside>
 	<!-- svelte-ignore a11y-media-has-caption -->
 	<video controls src={shofarloud}>
-		<source src={shofarloud} type="video/mp4">
+		<source src={shofarloud} type="video/mp4" />
 	</video>
 </section>
 
@@ -29,6 +29,5 @@
 		width: 100%;
 		font-family: 'Helvetica Bold';
 		margin-bottom: 0px;
-		
 	}
 </style>

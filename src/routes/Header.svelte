@@ -4,28 +4,62 @@
 </script>
 
 <header>
-	<div class="corner">
-		<img src={logo} alt="Logo" />
-	</div>
-
 	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
+		<article>
+			<p>2937 W. Broward Blvd.</p>
+			<p>Fort Lauderdale</p>
+			<p>FL, 33312</p>
+		</article>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">more</a>
-			</li>
-		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
-	</nav>
+			<a href="/start">Learn</a>
+			<!-- 
+			How to Repent?
+			12 Tribes
+			Who are the Israelites today?
+			613 LSC
+			2 Kingdoms of Israel
+			Christ's True Name
+			Curses & Blessings (DEU 28) -->
 
-	<div class="corner"></div>
+			<a href="/about">About</a>
+			<!-- 
+			About	
+			Beliefs
+			History
+			Leadership -->
+
+			<a href="/holy-days">Holy Days</a>
+			<!--
+			Calendar
+			Sabbath
+			New Moon
+			Passover / Feast of Unleavened Bread
+			Day of Simon
+			Feast of First Fruits
+			Memorial Blowing of the Trumpets
+			Day of Atonement
+			Feast of Tabernacles
+			Feast of Dedication
+			Destruction of Nicanor
+			Purim -->
+
+			<a href="/false-holy-days">False Holidays</a>
+			<!-- 
+			False Christian Holidays
+			Birthdays
+			Christmas
+			Easter
+			Halloween
+			Mother’s Day
+			New Year’s Day
+			St Patrick’s Day
+			Sunday
+			Thanksgiving Day
+			Valentine’s Day -->
+
+			<a href="/contact">Contact Us</a>
+		</ul>
+	</nav>
 </header>
 
 <style>
@@ -34,86 +68,34 @@
 		justify-content: space-between;
 	}
 
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
+	nav a:hover {
+		color: var(--color-theme-1);
 	}
 
 	nav {
 		display: flex;
-		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
-	}
-
-	svg {
-		width: 2em;
-		height: 3em;
-		display: block;
-	}
-
-	path {
-		fill: var(--background);
-	}
-
-	ul {
-		position: relative;
-		padding: 0;
-		margin: 0;
-		height: 3em;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		list-style: none;
-		background: var(--background);
-		background-size: contain;
-	}
-
-	li {
-		position: relative;
-		height: 100%;
-	}
-
-	li[aria-current='page']::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
-	}
-
-	nav a {
-		display: flex;
-		height: 100%;
-		align-items: center;
-		padding: 0 0.5rem;
-		color: var(--color-text);
-		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-		text-decoration: none;
-		transition: color 0.2s linear;
-	}
-
-	a:hover {
-		color: var(--color-theme-1);
+		width: 100%;
+		justify-content: space-between;
+		& ul {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+			gap: 1rem;
+			flex-direction: column;
+			list-style: none;
+		}
+		& a {
+			display: flex;
+			height: 100%;
+			align-items: center;
+			padding: 0 0.5rem;
+			color: var(--color-text);
+			font-weight: 700;
+			font-size: 0.8rem;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			text-decoration: none;
+			transition: color 0.2s linear;
+		}
 	}
 </style>

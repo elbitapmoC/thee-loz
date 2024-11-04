@@ -1,1 +1,3 @@
-<h1>Begin Here</h1>
+<div class="text-column">
+	<h1>Your Journey Begin Here</h1>
+</div>

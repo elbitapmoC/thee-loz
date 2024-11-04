@@ -1,1 +1,3 @@
-<h1>Contact Page</h1>
+<div class="text-column">
+	<h1>Contact Us</h1>
+</div>

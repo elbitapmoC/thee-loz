@@ -4,6 +4,7 @@
 	import fb from '$lib/images/fb.svg';
 	import ig from '$lib/images/ig.svg';
 	let loz = 'Thee Light Of Zion';
+	const year = new Date().getFullYear();
 </script>
 
 <footer class="bg-black text-white py-16 px-6">
@@ -81,7 +82,7 @@
 	<section
 		class="flex flex-col sm:flex-row justify-between border-t border-gray-700 pt-6 text-right text-gray-400"
 	>
-		<p class="text-sm mb-4 sm:mb-0">© 2024 Thee Light of Zion</p>
+		<p class="text-sm mb-4 sm:mb-0">© Thee Light of Zion | {year}</p>
 		<aside class="flex space-x-6">
 			<a
 				href="https://www.youtube.com/@TheeLightofZion"
