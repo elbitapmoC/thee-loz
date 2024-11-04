@@ -36,6 +36,16 @@
 				</button>
 			</form>
 		</section>
+
+		<section>
+			<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">Locations</h3>
+			<ul class="space-y-2">
+				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Haiti</a></li>
+				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">GA</a></li>
+				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">FL</a></li>
+			</ul>
+		</section>
+
 		<section>
 			<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">{loz}</h3>
 			<ul class="space-y-2">
@@ -47,15 +57,6 @@
 					<a href="#" class="text-gray-300 hover:text-white transition-colors">Join In</a>
 				</li>
 				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Give</a></li>
-			</ul>
-		</section>
-
-		<section>
-			<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">Locations</h3>
-			<ul class="space-y-2">
-				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Haiti</a></li>
-				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">GA</a></li>
-				<li><a href="#" class="text-gray-300 hover:text-white transition-colors">FL</a></li>
 			</ul>
 		</section>
 

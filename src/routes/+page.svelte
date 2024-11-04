@@ -3,21 +3,16 @@
 </script>
 
 <section>
-	<aside class="pad-72">
-		<h1>THEE <span class="highlight"> LIGHT </span> <span class="font-hel">OF</span> ZION</h1>
+	<aside class="pb-72">
+		<h1>THEE <span class="highlight">LIGHT</span> <span class="font-hel">OF</span> ZION</h1>
 		<h2 class="header font-edit">Waking up the <span class="font-edit-italic">Lost Sheep</span></h2>
 	</aside>
-	<!-- svelte-ignore a11y-media-has-caption -->
-	<video controls src={shofarloud}>
-		<source src={shofarloud} type="video/mp4" />
-	</video>
+
+	<video controls src={shofarloud} class="video pb-72" aria-hidden="true"></video>
 </section>
 
 <style>
-	aside {
-		text-align: center;
-	}
-
+	/* Centering and Layout */
 	section {
 		display: flex;
 		flex-direction: column;
@@ -25,9 +20,27 @@
 		align-items: center;
 	}
 
+	aside {
+		text-align: center;
+	}
+
+	/* Typography */
 	h1 {
 		width: 100%;
 		font-family: 'Helvetica Bold';
-		margin-bottom: 0px;
+		margin-bottom: 0;
+	}
+
+	.highlight {
+		font-weight: bold;
+		color: blue;
+	}
+
+	/* Video Styling */
+	.video {
+		width: 100%;
+		height: auto; /* Adjusts height automatically based on width */
+		object-fit: cover;
+		aspect-ratio: 16 / 9; /* Set a fixed aspect ratio, adjust as needed */
 	}
 </style>

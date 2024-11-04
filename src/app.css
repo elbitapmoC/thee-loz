@@ -159,6 +159,6 @@ button:focus:not(:focus-visible) {
 	color: blue;
 }
 
-.pad-72 {
+.pb-72 {
 	padding-bottom: 4.5rem;
 }
