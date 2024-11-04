@@ -38,45 +38,49 @@
 				</form>
 			</section>
 
-			<section>
-				<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">Locations</h3>
-				<ul class="space-y-2">
-					<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Haiti</a></li>
-					<li><a href="#" class="text-gray-300 hover:text-white transition-colors">GA</a></li>
-					<li><a href="#" class="text-gray-300 hover:text-white transition-colors">FL</a></li>
-				</ul>
-			</section>
+			<section class="flex gap-12">
+				<section>
+					<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">Locations</h3>
+					<ul class="space-y-2">
+						<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Haiti</a></li>
+						<li><a href="#" class="text-gray-300 hover:text-white transition-colors">GA</a></li>
+						<li><a href="#" class="text-gray-300 hover:text-white transition-colors">FL</a></li>
+					</ul>
+				</section>
 
-			<section>
-				<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">{loz}</h3>
-				<ul class="space-y-2">
-					<li>
-						<a href="#" class="text-gray-300 hover:text-white transition-colors">Our Elders</a>
-					</li>
-					<li><a href="#" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
-					<li>
-						<a href="#" class="text-gray-300 hover:text-white transition-colors">Join In</a>
-					</li>
-					<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Give</a></li>
-				</ul>
-			</section>
+				<section>
+					<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">{loz}</h3>
+					<ul class="space-y-2">
+						<li>
+							<a href="#" class="text-gray-300 hover:text-white transition-colors">Our Elders</a>
+						</li>
+						<li>
+							<a href="#" class="text-gray-300 hover:text-white transition-colors">About Us</a>
+						</li>
+						<li>
+							<a href="#" class="text-gray-300 hover:text-white transition-colors">Join In</a>
+						</li>
+						<li><a href="#" class="text-gray-300 hover:text-white transition-colors">Give</a></li>
+					</ul>
+				</section>
 
-			<section>
-				<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">The Movement</h3>
-				<ul class="space-y-2">
-					<li>
-						<a href="#" class="text-gray-300 hover:text-white transition-colors">Resources</a>
-					</li>
-					<li>
-						<a href="#" class="text-gray-300 hover:text-white transition-colors">Calender</a>
-					</li>
-					<li>
-						<a href="#" class="text-gray-300 hover:text-white transition-colors">Events</a>
-					</li>
-					<li>
-						<a href="#" class="text-gray-300 hover:text-white transition-colors">News</a>
-					</li>
-				</ul>
+				<section>
+					<h3 class="text-sm font-semibold text-gray-500 mb-4 uppercase">The Movement</h3>
+					<ul class="space-y-2">
+						<li>
+							<a href="#" class="text-gray-300 hover:text-white transition-colors">Resources</a>
+						</li>
+						<li>
+							<a href="#" class="text-gray-300 hover:text-white transition-colors">Calender</a>
+						</li>
+						<li>
+							<a href="#" class="text-gray-300 hover:text-white transition-colors">Events</a>
+						</li>
+						<li>
+							<a href="#" class="text-gray-300 hover:text-white transition-colors">News</a>
+						</li>
+					</ul>
+				</section>
 			</section>
 		</nav>
 
