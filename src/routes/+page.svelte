@@ -1,5 +1,6 @@
 <script>
 	import shofarloud from '$lib/images/shofarLoud.mp4';
+	import CarouselText from '../components/CarouselText.svelte';
 </script>
 
 <section class="container">
@@ -9,6 +10,7 @@
 	</aside>
 
 	<video controls src={shofarloud} class="video pb-72" aria-hidden="true"></video>
+	<CarouselText />
 </section>
 
 <style>
