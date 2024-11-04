@@ -4,27 +4,29 @@
 </script>
 
 <header>
-	<address class="contact-info">
-		<p>2937 W. Broward Blvd.</p>
-		<p>Fort Lauderdale</p>
-		<p>FL, 33312</p>
-	</address>
+	<aside class="container">
+		<address class="contact-info">
+			<p>2937 W. Broward Blvd.</p>
+			<p>Fort Lauderdale</p>
+			<p>FL, 33312</p>
+		</address>
 
-	<nav class="main-nav">
-		<ul class="nav-list">
-			<li><a href="/">Home</a></li>
-			<li><a href="/start">Learn</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/contact">Contact Us</a></li>
-			<li><a href="/holy-days">Holy Days</a></li>
-			<li><a href="/false-holy-days">Holidays</a></li>
-		</ul>
-	</nav>
+		<nav class="main-nav">
+			<ul class="nav-list">
+				<li><a href="/">Home</a></li>
+				<li><a href="/start">Learn</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact">Contact Us</a></li>
+				<li><a href="/holy-days">Holy Days</a></li>
+				<li><a href="/false-holy-days">Holidays</a></li>
+			</ul>
+		</nav>
+	</aside>
 </header>
 
 <style>
 	/* Layout */
-	header {
+	aside {
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;

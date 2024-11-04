@@ -2,7 +2,7 @@
 	import shofarloud from '$lib/images/shofarLoud.mp4';
 </script>
 
-<section>
+<section class="container">
 	<aside class="pb-72">
 		<h1>THEE <span class="highlight">LIGHT</span> <span class="font-hel">OF</span> ZION</h1>
 		<h2 class="header font-edit">Waking up the <span class="font-edit-italic">Lost Sheep</span></h2>
